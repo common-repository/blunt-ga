@@ -1,0 +1,163 @@
+/* blunt GA admin CSS */
+
+fieldset {
+	float: left;
+	min-width: 730px;
+}
+
+fieldset label {
+	float: left;
+	clear: left;
+	margin-left: 10px;
+}
+
+.user_settings fieldset ul {
+	margin-left: 255px;
+}
+
+.user_settings fieldset li {
+}
+
+.user_settings fieldset label {
+	float: none;
+	clear: none;
+}
+
+fieldset br {
+	display: none;
+}
+
+fieldset label select {
+	min-width: 100px;
+}
+
+fieldset label span.label {
+	float: left;
+	text-align: right;
+	width: 250px;
+	padding-right: 5px;
+	line-height: 24px;
+}
+
+fieldset label span.notes {
+	font-size: -9em;
+	font-style: italic;
+}
+
+fieldset input.wide {
+	width: 450px;
+}
+
+fieldset textarea.list1 {
+	resize: none;
+	width: 450px;
+	height: 10em;
+}
+
+fieldset textarea.list2 {
+	resize: none;
+	width: 250px;
+	height: 10em;
+}
+
+#bluntGAerrorMessage {
+	background: linear-gradient(to top, #FEE, #FFF) #FEE;
+	border-color: #900;
+	border-radius: 3px;
+	border-width: 1px;
+	border-style: solid;
+	color: #900;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+#bluntGAerrorMessage ul {
+	list-style-type: disc;
+	list-style-position: outside;
+	margin: 0 0 0 20px;
+}
+
+#bluntGAerrorMessage ul li {
+	margin: 0;
+	padding: 0;
+}
+
+#bluntGAerrorMessage ul li+li {
+	margin-top: 5px;
+}
+
+#bga-donate-form {
+	float: right;
+	/*margin-right: 300px;*/
+}
+
+#bluntGAoptionsForm #poststuff #post-body {
+	margin-right: 0;
+}
+
+.postbox {
+	margin-top: 20px;
+	min-width: 730px;
+}
+
+.blunt_ga_help {
+	font-size: 1.1em;
+}
+
+.blunt_ga_help h4, {
+	font-size: 1em;
+	margin-bottom: .5em;
+	margin-top: 0;
+}
+
+.blunt_ga_help h5 {
+	font-size: 1em;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.blunt_ga_help p {
+	font-size: 1em;
+	margin-bottom: 1em;
+	margin-top: 0;
+}
+
+.blunt_ga_help ul {
+	margin: 0 0 1em 2em;
+	list-style-type: disc;
+}
+
+.blunt_ga_help li {
+	margin: 0;
+	line-height: 1.4em;
+}
+
+.blunt_ga_help .indent {
+	padding-left: 20px;
+}
+
+.blunt_ga_help code {
+	font-size: 1.1em;
+}
+
+.inside .blunt_ga_help {
+	float: left;
+	width: 500px;
+}
+
+@media (max-width: 800px) {
+
+}
+
+@media (max-width: 1500px) {
+	
+	fieldset {
+		margin-bottom: 1em;
+	}
+
+	.inside .blunt_ga_help {
+		width: auto;
+		min-width: 700px;
+	}
+	
+}
